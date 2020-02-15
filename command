@@ -24,6 +24,20 @@ chkconfig  httpd on  [ automatically start after reboot ]
 chkconfig  httpd off [ automatically stop after reboot ]
 ---------------------------------------------------------------------------------------
 
+tar  -cvf    file.tar file   [file  convert   to   file.tar ]
+tar  -xvf    file.tar        [file  convert     file.tar  to  file ]
+
+ gzip file.tar   [file  convert   file.tar   to   file.tar.zip ]
+ gunzip file.tar   [file  convert file.tar.zip  to  file.tar   ]
+
+
+
+
+
+
+
+
+
 
 
 
