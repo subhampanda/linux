@@ -27,6 +27,17 @@ chkconfig  httpd off [ automatically stop after reboot ]
 tar  -cvf    file.tar file   [file  convert   to   file.tar ]
 tar  -xvf    file.tar        [file  convert     file.tar  to  file ]
 
+
+service httpd  start    [yum]
+service httpd  restart  [yum]
+service httpd  stop     [yum]
+
+
+
+
+
+
+
  gzip file.tar   [file  convert   file.tar   to   file.tar.zip ]
  gunzip file.tar   [file  convert file.tar.zip  to  file.tar   ]
 
