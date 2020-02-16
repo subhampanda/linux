@@ -1,7 +1,6 @@
 ls -l  [all  files normal]
 ls -a  [all   hidden  files ]
 ls -la
-
 -----------------------------------------------------------------------------------------
 find -type  f                        [ all file  in  that  directory ]
 find -type  d                        [all folder  ]
@@ -34,7 +33,6 @@ service httpd  start    [yum]
 service httpd  restart  [yum]
 service httpd  stop     [yum]
 ----------------------------------------------------------------------------------------
-
 
 ln  -s  subham   subhamsoftlink  [if main file delete softlink will not  work]
 ln   subham   subhamhardlink  [if main file delete hardlink will not  delete  and  it  will work as backupfile]
