@@ -38,6 +38,9 @@ ln  -s  subham   subhamsoftlink  [if main file delete softlink will not  work]
 ln   subham   subhamhardlink  [if main file delete hardlink will not  delete  and  it  will work as backupfile]
 
 
+ps - preocess id
+kill - kill id
+ 
 
 
 
