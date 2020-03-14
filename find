@@ -10,5 +10,10 @@ find /   -size   10M                        [ find the file with in given size]
 find /  -size   -10M                        [ find the file with in given size less  then 10mb ]
 find /  -size   +10M                        [ find   file with in given size  greater 10mb ]
 find  /   -size   +10M   -size -20M         [ fnd the file with in given size less  then 10mb]
+find / -user   username                      [display the file   created by that  user ]
+find / -group   groupname                    [display the file in the group]
+find / -inum   12224                        [display the inode  number  file  ]
+
+
 
 
