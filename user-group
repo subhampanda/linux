@@ -1,0 +1,4 @@
+useradd   -u  1010       -g group1         -G group2         -e "31/12/2021"     -c "dbauser"     user10
+             [UID]       [GROUP NAME      [GROUP NAME        [EXPIRY]              [COMMENT]       [USERNAME] 
+                          PRIMARY]         SECONDARY]
+                          
