@@ -6,6 +6,18 @@
 -user
 -group
 
+
+find -type  f                        [ all file  in  that  directory ]
+find -type  d                        [all folder  ]
+find   / -type  f                    [ all file  in     top lavel  directory ]
+find   / -type  d                    [ all folder  in     top lavel  directory ]
+find   / -type  f -name os-release   [ find   os-release   file in /   ]
+find   / -type  f -name passwd       [ find   passwd   file in /   ]
+
+
+
+
+
 find /   -size   10M                        [ find the file with in given size]
 find /  -size   -10M                        [ find the file with in given size less  then 10mb ]
 find /  -size   +10M                        [ find   file with in given size  greater 10mb ]
