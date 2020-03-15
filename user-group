@@ -20,6 +20,50 @@ usermod -L  /bin/bash user1      [to  lock the user ]
 usermod -U  /bin/bash user1      [to   unlock  the user]
 usermod -l    user1  subham1     [to  change old name  new name]
 
+---------------------------------------------------------------------------------------------------------------------------
+
+
+vi  /etc/sudoers
+
+root      ALL=(ALL)        ALL
+gopi      ALL=(ALL)        /usr/sbin/useradd , /usr/sbin/userdel
+
+give  certain command  acces  to  user
+
+
+vi /etc/sudoers
+
+% whell   ALL=(ALL)   ALL
+% group1   ALL=(ALL)      /usr/sbin/useradd , /usr/sbin/userdel 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
