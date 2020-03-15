@@ -1,13 +1,6 @@
 ls -l  [all  files normal]
 ls -a  [all   hidden  files ]
 ls -la
------------------------------------------------------------------------------------------
-find -type  f                        [ all file  in  that  directory ]
-find -type  d                        [all folder  ]
-find   / -type  f                    [ all file  in     top lavel  directory ]
-find   / -type  d                    [ all folder  in     top lavel  directory ]
-find   / -type  f -name os-release   [ find   os-release   file in /   ]
-find   / -type  f -name passwd       [ find   passwd   file in /   ]
 --------------------------------------------------------------------------------------
 useradd user-name
 groupadd group-name
