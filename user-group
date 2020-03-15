@@ -1,4 +1,27 @@
+-u    UID
+-g    GROUP NAME PRIMARY
+-G    GROUP NAME SECONDARY
+-e    EXPIRY DATE
+-c    COMMENT
+-s    /bin/bash
+
+
 useradd   -u  1010       -g group1         -G group2         -e "31/12/2021"     -c "dbauser"     user10
              [UID]       [GROUP NAME      [GROUP NAME        [EXPIRY]              [COMMENT]       [USERNAME] 
                           PRIMARY]         SECONDARY]
-                          
+-------------------------------------------------------------------------------------------------------------------------
+
+usermod -u 602 user1            [to  changer  the  user]
+usermod -g admin user1          [to change to  the other group]  [admin - group]
+usermod -c cloudamin user1      [to  change  the comment to user1]
+usermod -s  /bin/bash user1     [to  change the shell]
+usermod -e  /bin/bash user1      [to  change the exipary date]
+usermod -L  /bin/bash user1      [to  lock the user ]
+usermod -U  /bin/bash user1      [to   unlock  the user]
+usermod -l    user1  subham1     [to  change old name  new name]
+
+
+
+
+
+
