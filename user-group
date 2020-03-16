@@ -37,6 +37,27 @@ vi /etc/sudoers
 % group1   ALL=(ALL)      /usr/sbin/useradd , /usr/sbin/userdel 
 
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+groupadd   group1                      [to add the group]
+groupadd  -g   602  group2             [to create group with id]
+groupmod  -g   501  group2             [to create group with id]
+groupmod  -N   g2   group2             [to rename  the group]
+            [new name] [old name]
+groupdel  group1	                   [to  delete the group1]
+
+gpasswd   -a  user2   group1           [to add  in another group]
+            [username] [groupname]
+gpasswd   -d  user2   group1           [to add  in another group]
+            [username] [groupname]
+gpasswd  -m  u1  u2  u3 group1         [to add multipleto  the  group]		
+
+passwd  user1                          [to  create the passwd  for  user]
+passwd  user1                          [to  create the passwd  for  user]
+passwd  -d user1                       [to delete passwd  of user]
+passwd  -l user1                       [to  lock passwd  of user]
+passwd  -u user1                       [to  unlock passwd  of user]
+
 
 
 
