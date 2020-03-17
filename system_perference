@@ -1,0 +1,2 @@
+ps      - it will show  current running process
+ps -ef  - it will displa all  runing   process  in  the server
