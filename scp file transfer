@@ -1,0 +1,33 @@
+vi  /etc/ansible/hosts
+[demo]                      [in server only]
+private-ip
+private-ip
+
+adduser  ansible         [in  all  machines ]
+passwd  ansible
+
+visudo
+
+ansible         ALL=(ALL)       NOPASSWD: ALL
+
+
+
+vi /etc/ssh/sshd_config
+---------------------------
+permit rootlogin no  (no comment)        [in  all  machines ]
+password authentation yes  (no comment)
+password authentation no  ( comment)
+permitRootlogin  no ( comment)
+
+su ansible                            [in server only]
+ssh prvavte-ip
+
+
+ssh-copy-id  prvavte-ip              [in server only]
+
+
+file/folder  transfer
+
+scp  /home/ansible/su.txt  ansible@172.31.23.123:/home/ansible
+scp   -r  /home/ansible/subh  ansible@172.31.23.123:/home/ansible 
+ 
