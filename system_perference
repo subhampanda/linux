@@ -2,3 +2,5 @@ ps      - it will show  current running process
 ps -ef  - it will displa all  runing   process  in  the server 
 ps -elfl - it  will display which process under which processer
 ps  -aux | sort -nr -k3 | head   - it will display top 10 cpu utilized process  
+pgrep -u user1
+pgrep  -g group1
