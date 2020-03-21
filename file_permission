@@ -1,0 +1,3 @@
+-          rw-           r--         r--       2         root      root       size        timestamp        file
+type      user         group       owner       no of   username   groupname   filesize     date            file
+of file   permission   permission  permission  file                                        time            name
